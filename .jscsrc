@@ -1,0 +1,37 @@
+{
+    "fileExtensions": [ ".js" ],
+
+    "maximumLineLength": 200,
+
+    "validateIndentation": "\t",
+    "validateQuoteMarks": null,
+
+    "disallowKeywords": ["with"],
+    "disallowEmptyBlocks": true,
+    "disallowKeywordsOnNewLine": [
+        "else"
+    ],
+    "disallowMixedSpacesAndTabs": true,
+    "disallowSpacesInsideObjectBrackets": true,
+    "disallowImplicitTypeConversion": ["string"],
+    "disallowMultipleLineStrings": true,
+    "disallowMultipleLineBreaks": true,
+    "disallowSpacesInNamedFunctionExpression": {
+       "beforeOpeningRoundBrace": true
+    },
+    "disallowYodaConditions": true,
+
+    "requireCapitalizedConstructors": true,
+    "requireCommaBeforeLineBreak": true,
+    "requireParenthesesAroundIIFE": true,
+    "requireDotNotation": true,
+    "requireSpaceAfterKeywords": [
+        "return"
+    ],
+    "requireSpaceAfterBinaryOperators": [
+        "+",
+        "-"
+    ],
+
+    "safeContextKeyword": "_this"
+}
